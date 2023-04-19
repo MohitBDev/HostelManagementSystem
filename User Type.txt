@@ -1,0 +1,22 @@
+User story:
+Sprint 1 - 
+Registration, change password, forget password, support, Attendence, Request
+
+Sprint 2 - 
+Internet banking, request, Processing, Feedback
+
+Sprint 3 -
+Completed request, feedback, live tracking.
+
+EPIC -
+As as student i want to see avalibility of the rooms, so that I can do my registration.
+
+Staff -
+As a staff I want to see the rooms avalibility, so that student can make the registration.
+
+Acceptance Criteria -
+GIVEN: I am registered and logged into hostel management system software.
+
+WHEN: I select the room, date and number of days, months I am going to stay.
+
+THEN: I can see available rooms and then I can book and pay the fees.
