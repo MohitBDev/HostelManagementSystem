@@ -20,4 +20,4 @@ GIVEN: I am registered and logged into hostel management system software.
 WHEN: I select the room, date and number of days, months I am going to stay.
 
 THEN: I can see available rooms and then I can book and pay the fees.
-Mohit
+
