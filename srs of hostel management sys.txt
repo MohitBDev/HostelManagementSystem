@@ -1,0 +1,141 @@
+Document:System Requirement Specification Document
+Title:System Reqruiement Spefication for Online Hostel Management System
+Team :
+Student,Warden,Guards,HouseCleaning,Mess,Visitors,Architect,
+	Quality Assurance Team,
+	System Analyst,StakeHolders
+
+Introduction:
+Objective :
+It defines how our client,team and audience see the online Hostel Management  and its functionality.The online Hostel Management System for Students and Staff Web Applictaion is intended to  provide complete solution for Student  as well as Management (Staff) through  a single Gateway using internet. It will help  Students to have better functionality and It will help staff for having records  online without having the physical record.
+	
+
+
+
+
+
+Scope :This System allows Student as well as Staff to maintain respective facilities for presence (Entry/Exit)  from portals based on
+	their availablity.Students will be able to  review their monthly attendance and may able to place leave within
+	24 hours , can request for housekeeping.The System  will be able to show live records of current no. of Students in the hostel and staff through online portals
+	for stakeholders.
+
+
+Functional Requirements:
+Any visitor  will not be able to enter hostel without having portal credentials. Hostel Students can keep their visitor's entry.Any Student will be able to view records 
+	from  avaialble portal.  Registered staff will be able view Student records for maintaning dicipline. Entry of Students  maintained by staff's portal.
+	Staff will be able to approve or reject request of leave. Staff will be to track and maintain records of Students  present in hostel Staff will be able to raise
+	reqests for housekeeping, electric technician, guards, emergency services and safety .
+
+Staff  will be able to add new Student to Student portal maintained by system. Management team will be able to approve or 
+	reject request  raised by Student for adding or removing facilities from portal.
+	Staff will be able to update  Student details which have been already present hostel records. 
+	Staff team will be informed well in advanced if Student will not present in hostel or if he goes out without permission.
+	Student listing will be provided based on their attendance and availablity to staff everyday.   Students will be able to  add or remove requests for house cleaning. 
+	System will be maintain by management team for each Student and staff  records.
+    Students will be able view all facilities present in hostel.
+	 
+	 Registered Students will be able place request with the help of portal maintained by  management team. Registered Student will be 
+	 able to cancel housekeeping request order within 24 hours. Registered Student get housekeeping request history. Registered Student and staff can get serevice
+	 after 24 hours of placing the request.
+		
+	 Staff team will be able get details of feedback of a particular Student. Staff team  will be able to view and help to imporve facilities. 
+	 
+	 Management team will be able to view summary of attendance and feedback placed in a month by Students.
+	 
+	 Student will be provided options for payment such as through internet banking  or  UPI  or Online payment option.
+ 	 Students will asked to submit their payment related information to staff .Students will be redirected to payment gateway for secure payment
+	 transaction. On successful payment processing using payment gateway system will notify Student and staff about transaction and hostel admission
+	 status.
+		
+		
+	 Students will be able track request status about cleaning and fees . Students will be able track attendance using unique Student id.
+	 Student will be able get pending fees details so that Student can pay the fees on online portal.
+	 Staff team will be able to monitor Students by portals.
+	 Staff team will be able to track Student presence in the hostel.
+	 
+	 
+	 Student will able to submit feedback about hostel and staff members. Student will able to  get details about staff members and facilities.
+	 Student will be able to update his/ her personal information. 
+	 Student  will be to manage his profile maintained by  management system. Student will be able change his credentails if required. 
+	 Student will be notified about cleaning status through  SMS, Email communication.
+	 Student will get complete information about hostel through a dashboard.
+	 Student will be able to update his payment related information.
+ 
+
+	Dashboard will provide information of student's details, score cards, attendance .
+	Management team  will be informed about indicipline about  students.
+	 Management team will be able to monitor daily routine using thier personalized dashboard.
+	 Students will be able get thier querry realted infomation using student Dashboard.
+	 Staff will be able track thier salary details through online portal.
+	 System and Technical team ( IT Opertaions team) will be able monitor system operations by monitoring records.
+               
+ 
+ 
+Non Functional Requirements:
+
+
+Security :
+All the student and Staff will be allow to do respective activities from online portals
+each stakeholder will be to access system through authentication process.
+System will provide access to  the respective activity,Operations using Role based security 
+(Authorization) (Permissions based on Role)
+it would provide student and all staff member's Confidential information to shared by the system to the stakeholder.
+But not shared stakeholder's confidential information to student and staff. 
+System will automatically log off all stakeholder,students and staff member due to inactiveness.
+system will logged out inactive stakeholder as well as  logged out to inactive student and staff member's who will not be active for a perticular time,after authentication the service will be restart.
+system will internally maintain secure communication channel between servers ( Web Servers, App Servers, databse Server).
+
+Reliability :
+The system will backup Student and staff member data on regular basis and recover in short time
+duration to keep system operational Continous updates are matained, continous Administration
+is done to keep system operational.
+
+Availability
+	uptime:   24* 7  available
+		 99.999%
+Maintainability:
+	A Student database software will be used to maintain System data Persistence.
+	IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.
+	Separate enviornment will be maintained for system for isolation in  testing and development.
+
+Portablility:
+ PDA: Portable Device Application
+ System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online hostel portal.
+ System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+only registered customer will be able to use online hostel portal after authentication.
+staff member should not be able to reject the request of student only hostel management team should be reject the request of student.
+Hostel management team will be able to view daily, weekly, monthly Student reviews about the hostel managemenet staff on dashboard.
+
+Durability:
+System will retain Student and staff on online hostel portal for 15 minutes  even though user loose internet connection and join again.
+System will maintain wishlist for Student.
+System will implement backup and recovery for retaining Student and staff data.
+
+Efficiency:
+on starting of new college, maximum number of students will be reserve there seat,
+System will be able to show facility of hostel to the students.
+system will be able to show action taken against request of student and review of managemenet team.
+
+
+Modularity:
+System will designed and developed using reusable, independent or dependent senarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+
+	
+Scalability:
+System will be able  to  provide  consistent user exeprience to stake holder as well as vistors and students irrespective of load.
+
+Safety:
+Online hostel portal will be secure from malicious attack, fishing.
+Online hostel portal functionalilites are protected from outside with prper firewall configuration.
+Online hostel portal will be always kept updated with latest anti virus software.
+Bussiness data will be backed up periodically to ensure safty of data using increamental back up strategy.
+Role based security will be applied for Application data and operations accessibility.
+
+
+
+
+
+
